@@ -4,3 +4,6 @@
 
 # CarrierSettings
 PRODUCT_PACKAGES += CarrierSettings
+
+# IMS
+$(call inherit-product, packages/modules/ImsMedia/imsmedia.mk)
