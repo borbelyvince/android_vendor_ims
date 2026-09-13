@@ -20,3 +20,6 @@ PRODUCT_PACKAGES += android.hardware.telephony.ims.prebuilt.xml
 PRODUCT_PACKAGES += \
     FrameworkResOverlayIms \
     TelephonyOverlayIms
+
+# SEPolicy
+SYSTEM_EXT_PRIVATE_SEPOLICY_DIRS += vendor/ims/sepolicy/system_ext/private
